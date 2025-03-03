@@ -1,0 +1,8 @@
+import numpy as np
+import cv2
+img=cv2.imread(r'C:/Users/sumed/OneDrive/Desktop/project/hand.jpg')
+img=cv2.resize(img,(0,0),fx=0.6,fy=0.6)
+img=img[50:340,360:594]
+cv2.imshow('Image',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
