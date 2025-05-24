@@ -206,7 +206,6 @@ VISTA successfully demonstrates the feasibility of replacing traditional input d
 * OpenCV: Open Source Computer Vision Library  
 * "Real-time Hand Gesture Recognition using MediaPipe" \- Research Papers  
 * "Eye Tracking for Human-Computer Interaction" \- Academic Literature  
-* GitHub Repository : [https://github.com/AmissDrake/VISTA](https://github.com/AmissDrake/VISTA)
 
 ### **Datasets and Models**
 
