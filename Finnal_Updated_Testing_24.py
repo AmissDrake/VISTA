@@ -116,9 +116,9 @@ while True:
 
                 if pred == 'spellcheck':
                     pass  # No operation
-                elif pred == 'left_click':
+                elif pred == 'leftclick':
                     pyautogui.click(button='left')
-                elif pred == 'right_click':
+                elif pred == 'rightclick':
                     pyautogui.click(button='right')
                 elif pred == 'backspace':
                     pyautogui.press('backspace')
