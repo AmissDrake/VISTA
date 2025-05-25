@@ -149,6 +149,14 @@ def main_loop(model_x, model_y):
             cv2.putText(frame, f"Tilt: {smoothed_tilt:.1f} deg", (10, 60),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
 
+            eye_center = (left_eye + right_eye) / 2
+            scale = 400
+            gaze_end = eye_center + smoothed * scale
+            cv2.line(frame,
+                     tuple(eye_center.astype(int)),
+                     tuple(gaze_end.astype(int)),
+                     (0, 255, 255), 2)
+
         # FPS overlay
         frame_count += 1
         now = time.time()
